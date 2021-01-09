@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: SampleNoiseSubtract
+  m_EditorClassIdentifier: Assembly-CSharp:ProceduralTerrain.NoiseGenerator:NoiseSubtract
+  previewResolution: 0.2
+  noiseArray:
+  - noise: {fileID: 11400000, guid: 81f574a9780f5a54bb82f5ff729a784c, type: 2}
+    intensity: 0.5
+  - noise: {fileID: 11400000, guid: 16a63c1247412a5478cad65413ab88b1, type: 2}
+    intensity: 2
+  zoom: 1
